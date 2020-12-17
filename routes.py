@@ -37,7 +37,7 @@ def start_page():
 
 @app.route('/train')
 def start_page_train():
-    form = SearchForm_air()
+    form = SearchForm_train()
     return render_all_tickets(form, Train_ride)
 
 
